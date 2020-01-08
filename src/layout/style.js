@@ -4,8 +4,7 @@ import style from "../globalStyle.js";
 export const main = styled.div`
   display: flex;
   flex-direction: row;
-  box-sizing:
+  box-sizing:border-box;
   justify-content: space-between;
   padding: 0px 10px;
- 
 `;
