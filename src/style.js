@@ -51,4 +51,8 @@ html, body, div, span, applet, object, iframe,
         text-decoration: none;
         color: #fff;
     }
+    .iconfont{
+        font-size:16px;
+        color:#fff;
+    }
 `;

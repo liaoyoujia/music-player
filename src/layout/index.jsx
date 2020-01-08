@@ -4,8 +4,9 @@ import { renderRoutes } from "react-router-config";
 function Home(props) {
   const { route } = props;
   return (
-    <div className="home">
-      home
+    <div className="home" style={{ backgroundColor: "red" }}>
+      
+      <i className="iconfont icon-all icon-zhankai"></i>
       {renderRoutes(route.routes)}
     </div>
   );
