@@ -1,7 +1,13 @@
-import React from "react";
-
+import React from 'react'
+import Slider from '../../components/slider/index'
 function Recommend(props) {
-  return <div className="recommend">recommend</div>;
+  const bannerLists=[1,2,3,4].map((item)=>({url:"http://p1.music.126.net/ZYLJ2oZn74yUz5x8NBGkVA==/109951164331219056.jpg"}))
+  return (
+    <div className="recommend">
+      <Slider bannerLists={bannerLists}></Slider>
+      recommend
+    </div>
+  )
 }
 
-export default React.memo (Recommend);
+export default React.memo(Recommend)
