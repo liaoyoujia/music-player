@@ -8,8 +8,8 @@ function Slider(props) {
   useEffect(() => {
     let swiper = new Swiper('.swiper-container', {
       loop: true,
-      // autoplay: true,
-      // autoplayDisableOnInteraction: false,
+      autoplay: true,
+      autoplayDisableOnInteraction: false,
       effect: 'fade',
       pagination: {
         el: '.swiper-pagination'
