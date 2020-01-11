@@ -10,8 +10,8 @@ html, body, div, span, applet, object, iframe,
     dl, dt, dd, ol, ul, li,
     fieldset, form, label, legend,
     table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed, 
-    figure, figcaption, footer, header, hgroup, 
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
     menu, nav, output, ruby, section, summary,
     time, mark, audio, video {
         margin: 0;
@@ -22,7 +22,7 @@ html, body, div, span, applet, object, iframe,
         vertical-align: baseline;
     }
     /* HTML5 display-role reset for older browsers */
-    article, aside, details, figcaption, figure, 
+    article, aside, details, figcaption, figure,
     footer, header, hgroup, menu, nav, section {
         display: block;
     }
@@ -54,5 +54,27 @@ html, body, div, span, applet, object, iframe,
     .iconfont{
         font-size:16px;
         color:#fff;
+    }
+    .App{
+        background:#fff;
+        min-height:100vh;
+    }
+    .overflow1{
+        display: -webkit-box;
+	    overflow: hidden;
+	    -webkit-line-clamp: 1;
+	    -webkit-box-orient: vertical;
+    }
+    .overflow2{
+        display: -webkit-box;
+	    overflow: hidden;
+	    -webkit-line-clamp: 2;
+	    -webkit-box-orient: vertical;
+    }
+    .overflow3{
+        display: -webkit-box;
+	    overflow: hidden;
+	    -webkit-line-clamp: 3;
+	    -webkit-box-orient: vertical;
     }
 `;
